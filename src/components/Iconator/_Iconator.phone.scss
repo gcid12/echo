@@ -1,0 +1,105 @@
+.iconator{
+  display: inline-block;
+  .icon_medium, .icon_small, .icon_large, .icon_outline {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+  }
+  .icon_medium {
+    width: 50px;
+    height: 50px;
+  }
+
+  .icon_small {
+    width: 20px;
+    height: 20px;
+  }
+
+  .icon_outline{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: rgba(255,255,255,0.7);
+  }
+
+  .icon_background{
+    //width:60px; padding-right:15px;
+    position: fixed;
+    min-width: 600px;
+    height:600px;
+    left: -300px;
+    top: 15%;
+    opacity: 0.03;
+    background-size: 600px 600px;
+
+  }
+
+
+  //Categories
+
+  .icon_red {
+    background-image: url(./icons/icon_red_solo.png);
+    &.tridi{
+      background-image: url(./icons/icon_red.png);
+    }
+  }
+  .icon_orange {
+    background-image: url(./icons/icon_orange_solo.png);
+    &.tridi{
+      background-image: url(./icons/icon_orange.png);
+    }
+  }
+  .icon_yellow {
+    background-image: url(./icons/icon_yellow_solo.png);
+    &.tridi{
+      background-image: url(./icons/icon_yellow.png);
+    }
+  }
+  .icon_green {
+    background-image: url(./icons/icon_green_solo.png);
+    &.tridi{
+      background-image: url(./icons/icon_green.png);
+    }
+  }
+  .icon_blue {
+    background-image: url(./icons/icon_blue_solo.png);
+    &.tridi{
+    background-image: url(./icons/icon_blue.png);
+  }
+  }
+  .icon_purple {
+    background-image: url(./icons/icon_purple_solo.png);
+    &.tridi{
+      background-image: url(./icons/icon_purple.png);
+    }
+  }
+  .icon_pink {
+    background-image: url(./icons/icon_pink_solo.png);
+    &.tridi{
+      background-image: url(./icons/icon_pink.png);
+    }
+  }
+  .icon_neutral {
+    background-image: url(./icons/icon_neutral_solo.png);
+    &.tridi{
+      background-image: url(./icons/icon_neutral.png);
+    }
+  }
+
+}
+
+
+//DarkTheme
+
+.layout.darktheme{
+  .icon_medium, .icon_small, .icon_large, .icon_outline {
+
+  }
+
+  .icon_background{
+    opacity: 0.1;
+  }
+}
+
+
