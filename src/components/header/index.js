@@ -8,8 +8,7 @@ class Header extends Component {
     super(props);
 
     this.state = {
-      title: 'HEXA',
-      version: 'v0.1',
+      title: 'hexa',
     };
   }
 
@@ -25,7 +24,6 @@ class Header extends Component {
           >
             {state.title}
           </Link>
-          <p>v0.1</p>
         </div>
         
         <div className="header">

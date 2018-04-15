@@ -27,6 +27,7 @@ class Layout extends Component {
         collapsed:true,
       },
       menu_visible:false,
+      graph_visible:false,
       darktheme:false,
       showFilters:false,
       filter_one:true,
@@ -205,9 +206,11 @@ class Layout extends Component {
        
       );
     }else{
+      
       return (
-        
+        <div className={ClassNames({ hidden: !this.state.graph_visible })}>
           <div className={ClassNames('graph_wrapper cat_'+ cat )} />
+        </div>
         
       );
     }

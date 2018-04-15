@@ -21,12 +21,9 @@ const CategoryView = ({ cat, data }) => {
         className={ClassNames(`stillbox ${thisCat}`)}
       >
         <div className="box-2 category-box">
-          <h2 className="category-title categ-big">
-            <Iconator icon={category.slug_name} size="m" />
-            
-            <br />
+          <h1 className="category-title categ-big">
             {category.name}
-          </h2>
+          </h1>
           <p className="categ-brief">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
