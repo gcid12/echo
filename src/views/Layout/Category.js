@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import ClassNames from 'classnames';
 import Iconator from './../../components/Iconator';
 import Mapping from './utilities/Mapping';
+import Featured from './../../components/Featured';
 
 const CategoryView = ({ cat, data }) => {
   const CATEGORIES = data.payload;
@@ -16,21 +17,19 @@ const CategoryView = ({ cat, data }) => {
   
   return (
     <div className="module">
-      
-      <div
-        className={ClassNames(`stillbox ${thisCat}`)}
-      >
+      <Featured/>
+      <div className={ClassNames(`stillbox ${thisCat}`)}>
         <div className="box-2 category-box">
           <h1 className="category-title categ-big">
             {category.name}
           </h1>
-          <p className="categ-brief">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam.
-          </p>
           <div className="companies">
             <div className=" box-items">
+              
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam.
+              
               {subCategories.map((i, index) => (
                 <Link
                   key={index}
@@ -49,6 +48,7 @@ const CategoryView = ({ cat, data }) => {
           </div>
         </div>
       </div>
+      
     </div>
   );
 };

@@ -184,10 +184,12 @@ class Layout extends Component {
                 </div>
         );
       }
-      return (<div className="panel_wrapper">
+      return (<div className="hexa_panel_wrapper">
                 <CategoryView
                   cat={this.getParentCategory()}
-                  data={dataSet} />
+                  data={dataSet} >
+                </CategoryView>
+                
               </div>
         );
     }

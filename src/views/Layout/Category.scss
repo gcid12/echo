@@ -712,16 +712,12 @@ p {
                   (7,$f7-color) {
     .cat_#{$number} {
       .category-box{
-        border-color: $color;
-        border-width: 0 0 0 0;
-        border-style: solid;
         height: 100%;
-        width: 100%;
-        //position: absolute;
+        position: absolute;
         top: 0;
         opacity: 1;
         padding: 0 40px 0 10px;
-        border-radius: 20px;
+        width:30%;
       }
       .subcategory-title {
         color: $color;
@@ -732,6 +728,8 @@ p {
       }
       .category-title{
         color: $color;
+        font-weight:100;
+        font-size:2em;
       }
 
       .box-items{

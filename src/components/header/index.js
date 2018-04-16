@@ -22,7 +22,7 @@ class Header extends Component {
               pathname: '/',
             }}
           >
-            {state.title}
+            {state.title}.store
           </Link>
         </div>
         
