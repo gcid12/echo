@@ -16,52 +16,75 @@ class Featured extends Component {
     const state = this.state;
     return (
       <div className="hexa_grid">
-        <ul id="grid" className="clr">
+        <ul className="grid clr">
           <li>
             <div className="hexagon">
-              <p>test</p>
+              <p>uno</p>
             </div>
           </li>
           <li>
             <div className="hexagon">
-              <p>test</p>
+              <p>dos</p>
             </div>
           </li>
           <li>
             <div className="hexagon">
-              <p>test</p>
+              <p>tres</p>
             </div>
           </li>
           <li>
             <div className="hexagon">
-              <p>test</p>
+              <p>cuatro</p>
             </div>
           </li>
           <li>
             <div className="hexagon">
-              <p>test</p>
+              <p>cinco</p>
             </div>
           </li>
           <li>
             <div className="hexagon">
-              <p>test</p>
+              <p>seis</p>
             </div>
           </li>
           <li>
             <div className="hexagon">
-              <p>test</p>
+              <p>siete</p>
             </div>
           </li>
           <li>
             <div className="hexagon">
-              <p>test</p>
+              <p>ocho</p>
             </div>
           </li>
           <li>
             <div className="hexagon">
-              <p>test</p>
+              <p>nueve</p>
             </div>
           </li>
+        </ul>
+        <ul className="grid clr push1">
+          <li>
+            <div className="hexagon">
+              <p>1uno</p>
+            </div>
+          </li>
+          <li>
+            <div className="hexagon">
+              <p>1dos</p>
+            </div>
+          </li>
+          <li>
+            <div className="hexagon">
+              <p>1tres</p>
+            </div>
+          </li>
+          <li>
+            <div className="hexagon">
+              <p>1cuatro</p>
+            </div>
+          </li>
+ 
         </ul>
       </div>
 
