@@ -9,6 +9,7 @@
     width: 100%;
     /* margin: 0 auto; */
     padding-left: 30%;
+    border:1px solid green;
 }
 
 .clr:after{
@@ -52,22 +53,32 @@
     transform: skewY(-30deg) rotate(60deg);
     overflow: hidden;
     background-repeat: no-repeat;
-    background-size: 120% 100%;
+    background-size: 127% 112%;
+    background-position: 50% 50%;
     background-image: url('../../components/Iconator/icons/icon_red.png') !important;
 }
 
 .grid li:nth-child(2n+1) {
     /*margin: 0 1%;*/
-    opacity:0.5;
+    opacity:1;
 }
 
-.grid.push1 {
+.grid.row2 {
     /*border: 1px solid red;*/
-    margin-top: -35px;
+    margin-top: -40px;
     position: absolute;
-    -webkit-transform: translateX(120px);
-    -ms-transform: translateX(120px);
-    transform: translateX(114px);
+    /*-webkit-transform: translateX(120px);*/
+    /*-ms-transform: translateX(120px);*/
+    transform: translateX(3.6%);
+}
+
+.grid.row3 {
+    border: 1px solid red;
+    margin-top: 20px;
+    position: absolute;
+    /*-webkit-transform: translateX(120px);*/
+    /*-ms-transform: translateX(120px);*/
+    transform: translateX(7.2%);
 }
 
 
@@ -97,3 +108,16 @@ p {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+
+
+.cls-1{
+    fill:#ff6742;
+    background-repeat: no-repeat;
+    background-size: 127% 112%;
+    background-position: 50% 50%;
+    background-image: url('../../components/Iconator/icons/icon_red.png') !important;
+}
+.cls-2{fill:#ffa8ff; cursor: move;}
+.cls-2:hover{fill: #ff1af9; cursor: pointer;}
+
+.cls-3{fill:#ffff60;}.cls-4{fill:#4bffff;}.cls-5{fill:#29d000;}

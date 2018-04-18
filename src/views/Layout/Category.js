@@ -17,7 +17,6 @@ const CategoryView = ({ cat, data }) => {
   
   return (
     <div className="module">
-      <Featured/>
       <div className={ClassNames(`stillbox ${thisCat}`)}>
         <div className="box-2 category-box">
           <h1 className="category-title categ-big">

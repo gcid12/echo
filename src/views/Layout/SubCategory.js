@@ -5,6 +5,7 @@ import _ from 'lodash';
 import ItemModal from './../../components/ItemModal';
 import Iconator from './../../components/Iconator';
 import Mapping from './utilities/Mapping';
+import Featured from './../../components/Featured';
 
 const SubCategoryView = ({ cat, match, data, state }) => {
   const category = data.payload[cat];
@@ -67,20 +68,20 @@ const SubCategoryView = ({ cat, match, data, state }) => {
                 key={i.slug_name}
                 calculated={renderCalculated(i)}
               >
-                <div
-                  className={ClassNames('item c-tooltip', { item_oss: i.oss && !i.branded }, { item_commercial: !i.oss }, { item_branded: i.branded })}
-                >
-                  <div
-                    className="company"
-                    // style={{ backgroundImage: `url(${renderLogo(i)})` }}
-                    style={{ backgroundImage: `url(${i.raw_logo})` }}
-                    title=""
-                  />
-                  
-                  <div className="company-name">
-                    {i.name} +  {i.oss ? 'OSS' : ''}
-                  </div>
-                </div>
+                <svg className='xmark' viewBox="0 0 396 266.42" width={100} height={200} version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink">
+
+                  <Link
+                      key={224}
+                      to={{
+                          pathname: `/greens/1`,
+                          state: { modal: true },
+                      }}
+                  >
+                    <polygon className="cls-2" points="132.5 114.03 132.5 38.39 198 0.58 263.5 38.39 263.5 114.03 198 151.84 132.5 114.03"/><path d="M317,84.3l65,37.53v75.06l-65,37.53-65-37.53V121.83L317,84.3m0-1.15-66,38.11v76.21l66,38.11,66-38.11V121.25L317,83.15Z" transform="translate(-119 -83.15)"/>
+                  </Link>
+                </svg>
+                  {/*{i.name} +  {i.oss ? 'OSS' : ''}*/}
+
               </ItemModal>
             ))}
           </div>
