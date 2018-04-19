@@ -1,9 +1,10 @@
-# ECHO
-A Blockchain Experiment
+# HEXA
+#### A Blockchain Experiment  
 
-(Work in Progress 💻🙈 🍕)
+(Note: this is Work in Progress 💻🙈 🍕)
 
 ![hexa](public/images/hexa_1.jpg?raw=true "Hexa")
+![hexa](public/images/hexa_2.jpg?raw=true "Hexa")
 
 RUN DEV ENVIRONMENT
 
