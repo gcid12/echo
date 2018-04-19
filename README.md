@@ -3,7 +3,9 @@ A Blockchain Experiment
 
 (Work in Progress 💻🙈 🍕)
 
-DEVELOPING:
+![hexa](public/images/hexa_1.jpg?raw=true "Hexa")
+
+RUN DEV ENVIRONMENT
 
 To start the project
 
