@@ -1,6 +1,7 @@
 # ECHO
 A Blockchain Experiment
 
+(Work in Progress 💻🙈 🍕)
 
 DEVELOPING:
 

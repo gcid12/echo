@@ -80,6 +80,19 @@ const SubCategoryView = ({ cat, match, data, state }) => {
                     <polygon className="cls-2" points="132.5 114.03 132.5 38.39 198 0.58 263.5 38.39 263.5 114.03 198 151.84 132.5 114.03"/><path d="M317,84.3l65,37.53v75.06l-65,37.53-65-37.53V121.83L317,84.3m0-1.15-66,38.11v76.21l66,38.11,66-38.11V121.25L317,83.15Z" transform="translate(-119 -83.15)"/>
                   </Link>
                 </svg>
+                <svg viewBox="0 0 79.76 92.1">
+                  <Link
+                    key={224}
+                    to={{
+                      pathname: `/greens/1`,
+                      state: { modal: true },
+                    }}
+                  >
+                    
+                     <polygon className="cls-1" points="79.76 23.02 79.76 69.08 39.88 92.1 0 69.08 0 23.02 39.88 0 79.76 23.02"/><g className="cls-2"><polygon className="cls-3" points="39.95 45.88 0.42 23.06 0 23.3 0 69.28 39.53 92.1 39.95 91.86 39.95 45.88"/></g><g className="cls-4"><polygon className="cls-5" points="79.76 22.89 39.95 45.88 39.95 91.86 79.76 68.87 79.76 22.89"/></g>
+                     <polygon className="shape1" points="79.76 23.02 79.76 69.08 39.88 92.1 0 69.08 0 23.02 39.88 0 79.76 23.02"/>
+                  </Link>
+                </svg>
                   {/*{i.name} +  {i.oss ? 'OSS' : ''}*/}
 
               </ItemModal>
